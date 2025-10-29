@@ -8,7 +8,7 @@ public class HomeController {
     @GetMapping("/")
     public String home() {
         return """
-                <h1>Welcome to the Real Home Page!!!</h1>
+                <h1>!!!Welcome to the Real Home Page!!!</h1>
                 <p>This is a simple Spring Boot application.</p>
                 """;
     }
