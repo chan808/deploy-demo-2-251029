@@ -34,6 +34,7 @@ jobs:
           body: ${{ steps.create_tag.outputs.changelog }}
 
   buildImageAndPush:
+    #태그명?
     needs: makeTagAndRelease
     runs-on: ubuntu-latest
     steps:
